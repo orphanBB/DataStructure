@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1540695586 source:e:\c++program\datastructure\datastructure\数据结构\线性表\main.c
+	<stdio.h>
+	<stdlib.h>
+	"SequenList.h"
+
+1540694639 source:e:\c++program\datastructure\datastructure\数据结构\线性表\sequenlist.c
+	"stdio.h"
+	"stdlib.h"
+	"SequenList.h"
+
+1540610825 e:\c++program\datastructure\datastructure\数据结构\线性表\sequenlist.h
+
