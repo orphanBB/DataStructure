@@ -18,6 +18,7 @@ LinkList *Create_LinkList();  //头插法
 LinkList *Create_LinkList2(); //尾插法
 int Display_LinkList(LinkList *head);  //遍历链表并显示
 int LinkList_Lenght(LinkList *head);  //链表的长度
+LinkList *getData_LinkList(LinkList *head,int i);
 
 int main()
 {
@@ -27,6 +28,9 @@ int main()
     Display_LinkList(p);
     length=LinkList_Lenght(p);
     printf("长度为：%d\n",length);
+    printf("查找：学号为4号学生信息:");
+    LinkList *resurch=getData_LinkList(p,4);
+
     return 0;
 }
 
@@ -107,10 +111,29 @@ int LinkList_Lenght(LinkList *head)
 {
     LinkList *p=head;
     int j=0;
-    while(p->next!=NULL)`
+    while(p->next!=NULL)
     {
         p=p->next;
         j++;
     }
     return j;
+}
+
+//单链表的查找8
+LinkList *getData_LinkList(LinkList *head,int i)
+{
+    LinkList *p;
+    int j=0;
+    if(i <= 0)
+        return NULL;
+    p=head;
+    while(p->next!=NULL&&j<i)
+    {
+        p=p->next;
+        j++;
+    }
+    if(i==j)
+        return p;
+    else
+        return NULL;
 }
