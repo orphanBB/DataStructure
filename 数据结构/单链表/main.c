@@ -1,5 +1,6 @@
 #include "stdio.h"
 #include "stdlib.h"
+#include "conio.h"
 
 typedef struct Stu{
     int num;
@@ -29,7 +30,7 @@ int main()
     length=LinkList_Lenght(p);
     printf("长度为：%d\n",length);
     printf("查找：学号为4号学生信息:");
-    LinkList *resurch=getData_LinkList(p,4);
+    //LinkList *resarch=getData_LinkList(p,4);
 
     return 0;
 }
