@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1552293487 source:e:\c++program\datastructure\datastructure\数据结构\取余运算-分治\main.cpp
+	<iostream>
+	"math.h"
+
