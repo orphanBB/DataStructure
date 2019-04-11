@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554959993 source:e:\c++program\datastructure\datastructure\数据结构\乘积最大\main.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+
