@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1556850490 source:e:\c++program\datastructure\datastructure\数据结构\lucky_draw\main.cpp
+	<iostream>
+	"string.h"
+
