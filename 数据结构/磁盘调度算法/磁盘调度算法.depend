@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1559321328 source:e:\c++program\datastructure\datastructure\数据结构\磁盘调度算法\main.cpp
+	<iostream>
+	"stdio.h"
+	"stdlib.h"
+	"time.h"
+

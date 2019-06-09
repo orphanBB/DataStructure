@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1558591376 source:e:\c++program\datastructure\datastructure\数据结构\迷宫（示例）\main.cpp
+	<iostream>
+	"stdio.h"
+

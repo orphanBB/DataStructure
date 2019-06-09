@@ -41,7 +41,6 @@ void DFS(int k)
 	for(i=1;i<=n;i++)
 		if(!visited[i]&&map[k][i])
 	    	DFS(i);
-
 		return;
 }
 int  cheakk()

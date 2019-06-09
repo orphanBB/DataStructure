@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1558266968 source:e:\c++program\datastructure\datastructure\数据结构\迷宫问题\main.cpp
+	<iostream>
+	"cstdio"
+	"cmath"
+
